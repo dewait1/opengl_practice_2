@@ -1,0 +1,13 @@
+﻿  Source.cpp
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(159,28): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(340,41): error C2440: '=': cannot convert from 'const char [10]' to 'LPCWSTR'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(340,30): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(360,88): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'const char [49]' to 'LPCWSTR'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(360,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9153,1): message : see declaration of 'MessageBoxW'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(377,141): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'const char [83]' to 'LPCWSTR'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(377,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(9153,1): message : see declaration of 'MessageBoxW'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(381,9): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char [10]' to 'LPCWSTR'
+C:\Users\Artem Samokhval\source\repos\Project1\Source.cpp(382,3): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+E:\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : see declaration of 'CreateWindowExW'
